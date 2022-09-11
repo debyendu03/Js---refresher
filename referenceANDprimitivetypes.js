@@ -8,7 +8,7 @@ console.log(b);
 // where array and Objects are Reference types, they were not copy the value but rather copy the pointer.
 
 const person = {
-  nam: "Ricky",
+  nam: "Rahul",
 };
 const person2 = person;
 console.log(person2);
@@ -21,5 +21,5 @@ console.log(person2);
 const person3 = {
   ...person,
 };
-person.nam = "Rahul";
+person.nam = "rahul018r";
 console.log(person3);
